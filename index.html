@@ -2,291 +2,212 @@
 <html lang="en">
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Orhan Toprakman - Data Scientist Portfolio">
+  <meta name="author" content="Orhan Toprakman">
+  <title>Orhan Toprakman</title>
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-9BN2RGZ7SC"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-9BN2RGZ7SC');
   </script>
 
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-T87LGJX');</script>
-  <!-- End Google Tag Manager -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+  <!-- Custom CSS -->
+  <link href="css/apple.css" rel="stylesheet">
 
-    <meta name="author" content="">
+  <style>
+    /* Quick script-free fade in delay */
+    body {
+      opacity: 0;
+      animation: pageFadeIn 1s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+    }
 
-    <title>Orhan - Home Page</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
-
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="css/creative.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    @keyframes pageFadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
 </head>
 
-<body id="page-top">
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T87LGJX"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+<body>
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">🏠</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Side Projects</a>
-                    </li>
-		    <!--li>
-                        <a class="page-scroll" href="./for_xuxu/index.html">XuXu</a>
-                    </li-->
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <header id="about">
-        <div class="header-content">
-
-            <div class="header-content-inner">
-              <img src="img/me.jpg" alt="Profile Photo">
-
-                <h1 id="homeHeading">Hi! I'm Orhan</h1>
-                <hr>
-                <p><color="#FFFFFF"><b><span>I'm a Data Scientist. I have experience of developing data-centric
-                  solutions for financial institutions, retailers and manufacturing companies. </span>
-                	<br><br><span>Tools: SQL, Python, PySpark, R, IBM CPLEX, Databricks, Pulp, C++, Github
-                    <br>
-                	<br>Research: Supervised/Unsupervised ML, Time Series Analysis and Anomaly Detection, Assortment Localization,
-                  Linear Programming, Edge AI, Demand Forecasting, Integer Programming, Heuristic Methods, A/B Testing,
-                  Difference-in-Differences, Multiobjective Decision Making, Evolutionary Algorithms
-
-            </div>
-        </div>
-    </header>
-
-	<section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h1 class="section-heading">Side Projects:</h1>
-					<hr class="primary">
-                </div>
-				<div class="space"><p></br></p></div>
-            </div>
-        </div>
-
-        <div class="container">
-        	<div class="row">
-            <div class="row">
-                      <div class="col-md-11 text-center">
-                  <h2><b>FB Marketplace Used Vehicle Ranker</b></h2>
-                          <div class="space"><br></div>
-                      </div>
-              <div class="col-md-7">
-                <p> End-to-end Python pipeline that screenshots Facebook-Marketplace car ads, OCRs & structures the data with GPT, filters the Pareto-optimal deals,
-                  ranks them with PROMETHEE, and spits out a clickable HTML report of the best listings—so you spend minutes, not hours, finding a car.
-              </p>
-                  <ul class="list-unstyled">
-                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> You can find the codes <a href="https://github.com/otoprakman/fb_used_vehicle_ranker">here</a></li>
-                  </ul>
-              </div>
-              <div class="col-md-5 text-center">
-                <img src="img/modelvs_v2.png" class="img-thumbnail" alt="RTE vs KK">
-                <div class="space"></div>
-                <div class="space"><p><br></br><br></br></p></div>
-              </div>
-            </div>
-            <div class="row">
-                      <div class="col-md-11 text-center">
-                  <h2><b>2023 Turkish Presidential Election Analysis Data</b></h2>
-                          <div class="space"><br></div>
-                      </div>
-              <div class="col-md-7">
-                <p> Presidential elections were held in Turkey in May 2023, alongside parliamentary elections, to elect a president for a term of five years.
-                  It marks the first time a Turkish presidential election has gone to a run-off. In this analysis, some questions regarding the opposition party
-                  leader's second round strategy are presented and answered using data of two consecutive election results.
-              </p>
-                  <ul class="list-unstyled">
-                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> You can find the blog and codes <a href="https://github.com/otoprakman/tr_pr_election_23">here</a></li>
-                  </ul>
-              </div>
-              <div class="col-md-5 text-center">
-                <img src="img/rte_vs_kk.png" class="img-thumbnail" alt="RTE vs KK">
-                <div class="space"></div>
-                <div class="space"><p><br></br><br></br></p></div>
-              </div>
-            </div>
-
-            <div class="row">
-                      <div class="col-md-11 text-center">
-                  <h2><b>Recurring Authorization Attempt Optimization</b></h2>
-                          <div class="space"><br></div>
-                      </div>
-              <div class="col-md-7">
-                <p>Payment Authorization is a way to ensure that the customer's account is valid. It is requested by the merchant to hold funds for the purchase. If authorization attempt is declined by
-                  the card issuing bank, and it is not possible to contact customer then the merchant may attempt another authorization.
-                  It is important for merchant to complete these recurring authorization attempts in minimum number which leads the cost and affect the customer experience.
-                  This analysis proposes a baseline model and approach to find better recycling practice.
-              </p>
-                  <ul class="list-unstyled">
-                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Three different approach is developed, Random Forest algorithm is used for generating empirical probability distributions.
-                      <a href="https://github.com/otoprakman/Payment-Retry">Blog + Codes</a></li>
-                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Association Rule Mining, dfprophet, tsoutlier is utilized for Exploratory Data Analysis(EDA)</li>
-
-                  </ul>
-              </div>
-              <div class="col-md-5 text-center">
-                <img src="img/recur.png" class="img-thumbnail" alt="Ratio Analysis">
-                <div class="space"></div>
-                <div class="space"><p><br></br><br></br></p></div>
-              </div>
-            </div>
-<br><br><br>
-
-      <div class="row">
-          <div class="col-md-11 text-center">
-              <h2><b> Non-Dominated Sorting Genetic Algorithm for Multi-objective Planar Location Problem  </b></h2>
-              <div class="space"><br></div>
-          </div>
-
-          <div class="col-md-5 text-center">
-              <img src="img/Heuristic.png" class="img-thumbnail" alt="NSGA-Results">
-          </div>
-
-          <div class="col-md-7">
-              <p> Location analysis is a branch of operations research. Objective is to place available facilities in a way that minimize
-                total transportation costs while considering constraints like avoiding placing hazardous materials near housing, and competitors' facilities.
-                The techniques also apply to cluster analysis, coverage problem. </p>
-                  <ul class="list-unstyled">
-                      <li><i class="fa fa-caret-right pr-10 text-colored"></i> Developed problem specific NSGA-2 algorithm at C++ to solve the location problem in a reasonable time. <a href="https://github.com/otoprakman/NSGA2_MPLP">Github</a></li>
-                      <li><i class="fa fa-caret-right pr-10 text-colored"></i> Visualizations and analysis are conducted at R. </li>
-                      <li><i class="fa fa-caret-right pr-10 text-colored"></i> Linear math model is developed and solved using <a href="https://www.ibm.com/analytics/cplex-optimizer">IBM CPLEX</a> and C++. </li>
-                  </ul>
-              <div class="space"></div>
-              <div class="space"><p><br></br><br></br></p></div>
-          </div>
+  <!-- Global Nav -->
+  <nav class="global-nav">
+    <div class="nav-content">
+      <a href="#" class="nav-logo">Orhan Toprakman</a>
+      <div class="nav-links">
+        <a href="#projects">Work</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com/otoprakman" target="_blank">GitHub</a>
       </div>
-      <br><br><br>
-      <div class="row">
-                <div class="col-md-11 text-center">
-				    <h2><b>Maximal Covering Location Problem with Genetic Algorithm</b></h2>
-                    <div class="space"><br></div>
-                </div>
-				<div class="col-md-7">
-					<p>Coverage Location Problems are often utilized when there is not enough budget, or human resources to cover all the demands.
-             It seeks to cover a set of demands while one or more objectives are to be optimized.
-				</p>
-						<ul class="list-unstyled">
-							<li><i class="fa fa-caret-right pr-10 text-colored"></i> Developed genetic algorithm to solve well known Maximal Covering Location Problem.
-                <a href="https://drive.google.com/file/d/1cCgEYwqyMDWM6skqhaTHzGdc_l4VyzMB/view?usp=sharing">Report</a></li>
-              <li><i class="fa fa-caret-right pr-10 text-colored"></i> Compared proposed algorithm with math model and other meta-heuristic methods.</li>
+    </div>
+  </nav>
 
-						</ul>
-				</div>
-				<div class="col-md-5 text-center">
-					<img src="img/MCLP-Plots.png" class="img-thumbnail" alt="MCLP-Plots">
-					<div class="space"></div>
-					<div class="space"><p><br></br><br></br></p></div>
-				</div>
-			</div>
-		</div>
+  <!-- Hero Section -->
+  <section class="hero visible"> <!-- 'visible' forced for hero -->
+    <div class="container">
+      <div class="hero-content">
+        <h1>Data Science,<br>Simplified.</h1>
+        <p class="intro-text">
+          I build data-centric solutions for many industries. Specializing in ML, Optimization, and Analytics to
+          drive better decisions.
+        </p>
+
+        <div class="skills-wrapper">
+          <span class="skill-chip">Python</span>
+          <span class="skill-chip">PySpark</span>
+          <span class="skill-chip">Optimization</span>
+          <span class="skill-chip">Machine Learning</span>
+          <span class="skill-chip">Databricks</span>
         </div>
-    </section>
+      </div>
 
+      <!-- Generated Hero Asset -->
+      <div class="hero-image-container">
+        <img src="img/hero-tree.png" alt="Minimalist Zen Tree" class="hero-img">
+      </div>
+    </div>
+  </section>
 
-    <section id="contact" class="bg-dark">
-		<div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h1 class="section-heading">Let's Get In Touch!</h1>
-                    <hr class="primary">
-                    <p>Here is my <a target="_blank" href="https://drive.google.com/file/d/1DkS3oSXHh0DcVYVaRKBncxibz0J9VoMj/view?usp=sharing">Resume</a>. Contact me, if you are interested.</p>
-                </div>
+  <!-- Work Section -->
+  <section id="projects">
+    <div class="container">
+      <h2 style="text-align: center;">Personal Projects.</h2>
+      <div class="grid-2">
+
+        <!-- Project 0: InstaRAG DB -->
+        <div class="card">
+          <div class="card-image-wrapper">
+            <img src="img/instarag-db.png" alt="InstaRAG DB" class="card-image">
+          </div>
+          <div class="card-content">
+            <div>
+              <h3>InstaRAG DB</h3>
+              <p>Turns saved Instagram posts into a searchable database using vector search. Built for personal use.</p>
             </div>
-            <div class="row">
-				<div class="col-lg-4 col-lg-offset-2 text-left">
-					<p><i class="fa fa-map-marker pr-10"></i>  Chicago, Illinois, USA, 60169</p>
-          <!-- <p><i class="fa fa-phone pr-10"></i>  +1 469-668-7996</p> -->
-					<p><i class="fa fa-envelope-o pr-10"></i><a href="mailto:otoprakman@gmail.com"> otoprakman@gmail.com</a><br></br></p>
-          <p><i class="fa fa-envelope-o pr-10"></i><a href="/privacy-policy/">Privacy Policy</a><br></br></p>
-				</div>
-				<div class="row">
-					<div class="col-lg-4 text-center">
-					    <a target= "_blank" href="https://github.com/otoprakman"><i class="fa fa-github fa-3x sr-contact"></i></a>
-					</div>
-					<div class="col-lg-4 text-center">
-	                    <a target= "_blank" href="https://www.linkedin.com/in/orhan-toprakman/"><i class="fa fa-linkedin fa-3x sr-contact"></i></a>
-	                </div>
-            	</div>
-            </div>
+            <a href="https://github.com/otoprakman/InstaPersonalDB" class="card-cta">View Source</a>
+          </div>
         </div>
-    </section>
 
-	<div class="container">
-		<div class="row">
-			<p class="text-center">Copyright © 2021 by ❤️.</p>
-		</div>
-	</div>
+        <!-- Project 1 -->
+        <div class="card">
+          <div class="card-image-wrapper">
+            <img src="img/modelvs_v2.png" alt="FB Marketplace" class="card-image">
+          </div>
+          <div class="card-content">
+            <div>
+              <h3>FB Marketplace Intelligence</h3>
+              <p>An end-to-end pipeline that structures unstructured listing data using OCR & GPT. It ranks deals using
+                PROMETHEE to find Pareto-optimal vehicles instantly.</p>
+            </div>
+            <a href="https://github.com/otoprakman/fb_used_vehicle_ranker" class="card-cta">View Source</a>
+          </div>
+        </div>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+        <!-- Project 2 -->
+        <div class="card">
+          <div class="card-image-wrapper">
+            <img src="img/rte_vs_kk.png" alt="Election Analysis" class="card-image">
+          </div>
+          <div class="card-content">
+            <div>
+              <h3>Election Strategy Analysis</h3>
+              <p>Deep dive into the 2023 Turkish Presidential Elections. A data-driven investigation into opposition
+                strategies using consecutive election datasets.</p>
+            </div>
+            <a href="https://github.com/otoprakman/tr_pr_election_23" class="card-cta">Read Analysis</a>
+          </div>
+        </div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!-- Project 3 -->
+        <div class="card">
+          <div class="card-image-wrapper">
+            <img src="img/recur.png" alt="Payment Retry" class="card-image">
+          </div>
+          <div class="card-content">
+            <div>
+              <h3>Payment Retry Optimization</h3>
+              <p>Revenue recovery system. Uses Random Forest to predict transaction success probabilities and optimize
+                retry schedules for failed payments.</p>
+            </div>
+            <a href="https://github.com/otoprakman/Payment-Retry" class="card-cta">View Project</a>
+          </div>
+        </div>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <!-- Project 4 -->
+        <div class="card">
+          <div class="card-image-wrapper">
+            <img src="img/Heuristic.png" alt="NSGA-2" class="card-image">
+          </div>
+          <div class="card-content">
+            <div>
+              <h3>Multi-objective Optimization</h3>
+              <p>Custom C++ implementation of the NSGA-2 genetic algorithm to solve planar location problems, balancing
+                multiple conflicting objectives efficiently.</p>
+            </div>
+            <a href="https://github.com/otoprakman/NSGA2_MPLP" class="card-cta">View Code</a>
+          </div>
+        </div>
 
-    <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer / Contact -->
+  <section id="contact" class="footer">
+    <div class="container">
+      <h2>Let's connect.</h2>
+      <p>I'm always open to discussing new ideas.</p>
+
+      <div class="social-icons">
+        <a href="mailto:otoprakman@gmail.com" class="social-link" title="Email"><i
+            class="fa-regular fa-envelope"></i></a>
+        <a href="https://github.com/otoprakman" class="social-link" title="GitHub"><i
+            class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/orhan-toprakman/" class="social-link" title="LinkedIn"><i
+            class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://drive.google.com/file/d/1DkS3oSXHh0DcVYVaRKBncxibz0J9VoMj/view" class="social-link"
+          title="Resume"><i class="fa-regular fa-file-pdf"></i></a>
+      </div>
+
+      <p style="font-size: 14px; margin-top: 40px; color: var(--text-tertiary);">
+        Chicago, IL &bullet; &copy; 2026 Orhan Toprakman<br>
+        <a href="privacy-policy.html" style="color: var(--text-tertiary); font-size: 13px;">Privacy Policy</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Scroll Reveal Script -->
+  <script>
+    // Simple Intersection Observer for fade-in on scroll
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target); // Only animate once
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('section').forEach(section => {
+      observer.observe(section);
+    });
+  </script>
 
 </body>
 
